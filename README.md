@@ -53,7 +53,6 @@ The strength of the app comes from Dataverse:
 ## 🛠️ Technologies Used
 - **Power Apps Canvas App**  
 - **Microsoft Dataverse**  
-- **Power Fx**  
 - **Power Automate** (Optional for notifications)  
 - **Power BI**
 
