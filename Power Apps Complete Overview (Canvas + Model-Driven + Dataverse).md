@@ -258,4 +258,4 @@ https://learn.microsoft.com/certifications/
 # ✍️ 13. Author
 
 **Created by:** *Aya Tarek*  
-Designed for **professional documentation**, **enterprise learning**, and **LinkedIn knowledge content**.
+Designed for **professional documentation**, **enterprise learning**, and **knowledge content**.
