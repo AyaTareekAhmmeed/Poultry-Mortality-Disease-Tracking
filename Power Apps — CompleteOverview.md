@@ -92,12 +92,6 @@ https://learn.microsoft.com/power-apps/maker/data-platform/
 # 📌 4. Power Fx — The Formula Language
 Used mostly in Canvas Apps.
 
-### Examples:
-```powerfx
-If(IsBlank(txtInput.Text), "Missing value", "OK")
-Patch(Orders, Defaults(Orders), { Quantity: 10 })
-Set(varUser, User().FullName)
-
 # 📌 5. Connectors
 
 Power Apps supports **1,100+ connectors**.
