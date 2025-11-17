@@ -1,156 +1,67 @@
-# Poultry Mortality & Disease Tracking – Power App Solution
-
-Built for: Organo Group Poultry Company
-Developed by: Aya Tarek
-Technology Stack: Power Apps (Canvas App), Microsoft Dataverse, Power Fx, Power BI-ready backend
-
-#📍 Overview
-
-This project is a Dataverse-powered Power App designed to digitalize the collection, validation, and monitoring of poultry mortality and disease records across multiple farms.
-The app enables field workers to submit daily records, while managers can instantly review, verify, and analyze data — all through a centralized cloud environment.
-
-🧠 Core Features
-✔ 1. Dataverse-Centric Architecture
-
-The heart of the project is a fully structured Dataverse backend:
-
-Relational tables
-
-Hierarchical category → condition tables
-
-Lookup dependencies
-
-Searchable fields
-
-Conditional & calculated columns
-
-Custom views for optimized filtering and analytics
-
-Dataverse ensures reliability, scalability, and enterprise-level data consistency.
-
-✔ 2. Power Apps Canvas App (4 Main Pages)
-1. Welcome Screen
-
-Simple UI with two main paths:
-
-Death Records Tracking
-
-Diseases Records Tracking
-
-2. Death Records Module
-
-Gallery view that loads Dataverse records in real time
-
-Full record editing, validation, and deletion
-
-"Add New" feature for inserting new rows
-
-Power Apps Accordion Component used to separate death categories
-
-Each accordion panel displays conditions based on Dataverse hierarchy
-
-3. Disease Records Module
-
-Category selection leading into condition drill-down
-
-Driven entirely by Dataverse hierarchical tables
-
-Allows dynamic viewing of changing condition values
-
-Clean, intuitive data-entry form
-
-4. Success Screen
-
-Displayed after:
-
-Submitting new entries
-
-Updating existing records
-
-Deleting records
-
-Provides clear and positive confirmation of action.
-
-⚙️ Technical Details
-Backend (Dataverse)
-
-Multiple interconnected tables
-
-Hierarchical relationships for categories and conditions
-
-Calculated columns based on other fields
-
-Data types assigned properly (text, date, number, lookup, choice)
-
-Business rules applied for validation
-
-Centralized views for Power BI reporting
-
-Frontend (Canvas App)
-
-Power Fx logic for navigation, validation, conditional visibility
-
-Accordion control to break down categories
-
-Gallery search & filter
-
-Editable forms with color-coded indicators
-
-Icons and UI optimized for mobile usage
-
-Success screen and confirmation logic implemented
-
-🚀 Business Benefits
-
-Real-time synchronization from farms → management
-
-Higher accuracy due to structured Dataverse design
-
-Faster reaction to disease outbreaks
-
-Visibility across all farms and cycles
-
-Can easily be extended to:
-
-Vaccine tracking
-
-Feed consumption
-
-Cycle performance
-
-Growth metrics
-
-Ready for Power BI live dashboards
-
-📊 Power BI Integration (Optional Expansion)
-
-Because the system is fully built on Dataverse, it can be connected directly to Power BI to create dashboards for:
-
-Mortality trends
-
-Disease patterns
-
-Farm performance
-
-Cycle analysis
-
-Geographical distribution
-
-📱 Screenshots
-
-(Add your images here)
-
-Welcome Screen
-
-Death Records Gallery
-
-Death Entry Form
-
-Diseases Drill-Down Screen
-
-Success Screen
-
-🏁 Conclusion
-
-This app modernizes poultry health data management by combining the power of Microsoft Dataverse with the flexibility of Power Apps.
-It provides a reliable, scalable, and user-friendly solution that supports Organo Group’s digital transformation goals.
+# 🐓 Poultry Mortality & Disease Tracking App  
+### Power Apps + Microsoft Dataverse
+
+This project is a custom Power Apps solution built for **Organo Group Poultry Company** to digitize and streamline mortality and disease tracking across poultry farms.  
+The app is fully integrated with **Microsoft Dataverse**, which acts as the core data backbone for all records, relationships, and analytics.
+
+---
+
+## 📌 Features
+
+### 1️⃣ Mobile Data Entry  
+- Simple, user-friendly interface for farm teams  
+- Mortality and disease logs submitted directly from mobile devices  
+- Automatic synchronization with Dataverse
+
+### 2️⃣ Dataverse-Driven Data Model  
+The strength of the app comes from Dataverse:  
+- Hierarchical tables for disease categories, sub-conditions, and mortality types  
+- Calculated columns for dynamic business logic  
+- Relationships enforced at the data level  
+- Secure, scalable, and centralized storage
+
+### 3️⃣ Dynamic UI Components  
+- **Power Apps Accordion** for mortality categories  
+- Drill-down navigation for disease hierarchy  
+- Editable galleries for validation and inline correction
+
+### 4️⃣ Real-Time Monitoring  
+- Every record is instantly available across departments  
+- Integrity and accuracy ensured through Dataverse rules  
+- Fully prepared for Power BI dashboards
+
+---
+
+## 🧱 Architecture Overview
+
+### **Power Apps**  
+- Frontend UI  
+- Validation logic  
+- Offline-friendly input screens
+
+### **Microsoft Dataverse**  
+- Core tables (Mortality, Disease, Farms, Conditions, Categories)  
+- Hierarchical relationships  
+- Business rules and calculated columns
+
+### **Power BI (Optional)**  
+- Analytics dashboards using Dataverse connector  
+- Trends for mortality, diseases, and farm performance
+
+---
+
+## 🛠️ Technologies Used
+- **Power Apps Canvas App**  
+- **Microsoft Dataverse**  
+- **Power Fx**  
+- **Power Automate** (Optional for notifications)  
+- **Power BI**
+
+---
+
+## 📄 How to Use
+1. Log in using your organization account  
+2. Select the farm and date  
+3. Enter mortality or disease details  
+4. Submit — data flows directly into Dataverse  
+5. Review or edit through editable galleries
