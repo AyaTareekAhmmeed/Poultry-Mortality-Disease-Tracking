@@ -4,7 +4,7 @@ Built for: Organo Group Poultry Company
 Developed by: Aya Tarek
 Technology Stack: Power Apps (Canvas App), Microsoft Dataverse, Power Fx, Power BI-ready backend
 
-##📍 Overview
+#📍 Overview
 
 This project is a Dataverse-powered Power App designed to digitalize the collection, validation, and monitoring of poultry mortality and disease records across multiple farms.
 The app enables field workers to submit daily records, while managers can instantly review, verify, and analyze data — all through a centralized cloud environment.
