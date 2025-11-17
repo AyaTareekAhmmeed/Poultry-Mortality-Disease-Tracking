@@ -97,3 +97,171 @@ Used mostly in Canvas Apps.
 If(IsBlank(txtInput.Text), "Missing value", "OK")
 Patch(Orders, Defaults(Orders), { Quantity: 10 })
 Set(varUser, User().FullName)
+
+# 📌 5. Connectors
+
+Power Apps supports **1,100+ connectors**.
+
+### ⭐ Common Connectors
+- Dataverse  
+- SQL Server  
+- SharePoint  
+- Excel  
+- Dynamics 365  
+- Salesforce  
+- REST APIs  
+- Custom Connectors  
+
+**🔗 Connectors Library:**  
+https://learn.microsoft.com/connectors/
+
+---
+
+# 📌 6. Security & Governance
+
+Managed through **Power Platform Admin Center**.
+
+### ⭐ Security Features
+- Environment-level security  
+- Table permissions  
+- Row-level security (RLS)  
+- Column-level security  
+- Conditional access (Azure AD)  
+- Data Loss Prevention (DLP)  
+- Tenant isolation  
+- Monitoring & Analytics  
+
+**🔗 Governance Docs:**  
+https://learn.microsoft.com/power-platform/admin/
+
+---
+
+# 📌 7. Application Lifecycle Management (ALM)
+
+Power Apps uses **Solutions** to manage movement between **Dev → Test → Production**.
+
+### ⭐ ALM Components
+- Managed / Unmanaged solutions  
+- Azure DevOps Pipelines  
+- GitHub Actions  
+- Environment variables  
+- Connection references  
+- Solution layering  
+- Automated CI/CD deployments  
+
+**🔗 ALM Documentation:**  
+https://learn.microsoft.com/power-platform/alm/
+
+---
+
+# 📌 8. Licensing Overview
+
+Flexible licensing based on business and scaling needs.
+
+### ⭐ Main Licensing Types
+- Per App plan  
+- Per User plan  
+- Pay-As-You-Go via Azure  
+- Dataverse capacity-based licenses  
+- Power Pages consumption licensing  
+
+**🔗 Licensing Guide:**  
+https://learn.microsoft.com/power-platform/admin/pricing-billing-skus
+
+---
+
+# 📌 9. Integrations
+
+Power Apps integrates deeply with the Microsoft ecosystem and external systems.
+
+### 🔄 Power Platform Integrations
+- Power Automate (workflows)  
+- Power BI (analytics)  
+- Power Pages (portals)  
+- Power Virtual Agents (chatbots)  
+
+### 🧩 Microsoft 365 Integrations
+- Teams  
+- SharePoint  
+- Outlook  
+- Excel  
+
+### ☁️ Azure Service Integrations
+- Azure Functions  
+- Azure SQL  
+- Cognitive Services  
+- Event Grid & Service Bus  
+- Logic Apps  
+
+### 📦 Dynamics 365 Integrations
+- Sales  
+- Customer Service  
+- Finance  
+- Supply Chain  
+- Project Operations  
+
+---
+
+# 📌 10. Best Practices
+
+## 🎨 Canvas Apps Best Practices
+- Minimize global variables  
+- Avoid loading large datasets OnStart  
+- Use reusable components  
+- Optimize delegation  
+- Limit heavy controls per screen  
+- Use collections only when required  
+
+## 🧱 Model-Driven Apps Best Practices
+- Keep forms simple  
+- Use role-based forms  
+- Apply business rules instead of too much Power Fx  
+- Build clear, focused views  
+- Use business process flows for guidance  
+
+## 🗄️ Dataverse Best Practices
+- Choose correct column types  
+- Use relationships correctly  
+- Add alternate keys  
+- Avoid unnecessary fields  
+- Keep everything organized inside Solutions  
+
+---
+
+# 📌 11. Learning Paths & Certification
+
+### 📘 Microsoft Learning
+https://learn.microsoft.com/training/powerapps/
+
+### 🏆 Certifications
+- PL-7001 – Power Apps Developer  
+- PL-200 – Functional Consultant  
+- PL-400 – Power Platform Developer  
+
+**📌 Certification Portal:**  
+https://learn.microsoft.com/certifications/
+
+---
+
+# 📌 12. Microsoft Documentation — Master Reference List
+
+| Topic | Link |
+|------|------|
+| Power Apps Home | https://learn.microsoft.com/power-apps/ |
+| Canvas Apps | https://learn.microsoft.com/power-apps/canvas-apps/ |
+| Model-Driven Apps | https://learn.microsoft.com/power-apps/model-driven-apps/ |
+| Dataverse | https://learn.microsoft.com/power-apps/maker/data-platform/ |
+| Power Fx | https://learn.microsoft.com/power-platform/power-fx/ |
+| Connectors | https://learn.microsoft.com/connectors/ |
+| Power Platform Admin | https://learn.microsoft.com/power-platform/admin/ |
+| ALM | https://learn.microsoft.com/power-platform/alm/ |
+| Licensing | https://learn.microsoft.com/power-platform/admin/pricing-billing-skus |
+| Power Apps Training | https://learn.microsoft.com/training/powerapps/ |
+| Certifications | https://learn.microsoft.com/certifications/ |
+
+---
+
+# ✍️ 13. Author
+
+**Created by:** *Aya Tarek*  
+Designed for **professional documentation**, **enterprise learning**, and **LinkedIn knowledge content**.
